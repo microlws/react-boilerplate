@@ -1,1 +1,1 @@
-# Website til Jakob's tømrer firma
+# React Boilerplate for personal use
