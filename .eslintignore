@@ -1,1 +1,3 @@
-
+src/store/configureStore.js
+node_modules
+node_modules/**

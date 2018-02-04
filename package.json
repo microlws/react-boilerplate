@@ -10,7 +10,7 @@
     "dev": "webpack-dev-server",
     "prod": "cross-env NODE_ENV=production webpack-dev-server -p --env.prod=true",
     "build": "npm run clean-build && cross-env NODE_ENV=production webpack -p --env.prod=true --env.sw=true",
-    "lint": "esw webpack.config.js src --color --format node_modules/eslint-friendly-formatter",
+    "lint": "esw webpack.config.js --ext .js --ext .jsx src --color --format node_modules/eslint-friendly-formatter",
     "lint:watch": "npm run lint -- --watch",
     "lint:fix": "npm run lint -- --fix"
   },
@@ -115,7 +115,7 @@
     "url-loader": "^0.6.2",
     "webpack": "^3.10.0",
     "webpack-bundle-analyzer": "^2.9.1",
-    "webpack-dashboard": "^1.0.2",
+    "webpack-dashboard": "^1.1.1",
     "webpack-dev-server": "^2.9.7"
   }
 }
